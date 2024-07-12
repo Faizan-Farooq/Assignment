@@ -92,6 +92,7 @@ class _MapScreenState extends State<MapScreen> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       body: Stack(
         children: <Widget>[
           // Replace GoogleMap widget with an Image widget for the background
